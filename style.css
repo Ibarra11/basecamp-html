@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Styles */
+nav{
+    background-color: grey;
+}
+
+nav h4{
+    display: inline-block;
+}
+
+.nav-list{
+    padding: 10px 5%;
+}
+
+.nav-list span{
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-list li{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 15px;
+    padding-left: 25px;
+}
+
+.nav-list a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+/* Header Styles */
+header{
+    background-color: black;
+    height: 70vh;
+    padding: 0 13.5%;
+}
+
+h1,h4{
+    text-transform: uppercase;
+}
+
+h1{
+    color: yellow;
+    font-size: 5rem;
+    position: relative;
+    top: 35%;
+    margin: 0;
+}
+
+/* Same Spacing for all three sections */
+#green-squares, #gold-squares, #wildlife-info{
+    margin: 0 5%;
+    margin-top: 40px;
+}
+
+/* Green Squares Section Styles */
+#green-squares  div{
+    width: 25%;
+    height: 15rem;
+    border-radius: 10px;
+    background-color: springgreen;
+    display: inline-block;
+    margin-right: 12.1%;
+}
+
+#green-squares div:last-child, #gold-squares div:last-child{
+    margin-right: 0;
+}
+
+
+/* Gold Section Squares Styles */
+#gold-squares div{
+    width: 48%;
+    background-color: gold;
+    display: inline-block;
+    height: 15rem;
+    margin-right: 3.5%;
+}
+
+/* Wildlife Section with Text & Image */
+#wildlife-info{
+    margin: 0 10%;
+    margin-top: 40px;
+}
+
+#wildlife-info div{
+    width: 40%;
+    display: inline-block;
+    margin-right: 9.5%;
+}
+
+#wildlife-info div:first-child{
+   position: relative;
+   bottom: 40px;
+}
+
+#wildlife-info div:last-child{
+    margin-right: none;
+}
+
+#wildlife-info p{
+    font-size: 18px;
+}
+
+#wildlife-info img{
+    width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer{
+    height: 7rem;
+    background-color: darkblue;
+    margin-top: 40px;
+}
+
+
+
+
